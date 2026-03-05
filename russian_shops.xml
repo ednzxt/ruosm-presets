@@ -3500,13 +3500,27 @@
         <key key="amenity" value="vending_machine" />
         <key key="vending" value="public_transport_tickets" />
         <preset_link preset_name="Payment Methods" />
-      </item>      
+      </item>
+      <separator />
+        <item name="Vending machine Iceberg" ru.name="Водомат &quot;Айсберг&quot;" type="node" preset_name_label="true">
+        <space />
+        <combo key="contact:phone" text="Phone" values="+7 996 4418460" /> <!-- TODO: дополнить значения values -->
+        <combo key="contact:vk" text="Vk" values="" /> <!-- TODO: дополнить значения values -->
+        <combo key="operator" text="Operator" values="" /> <!-- TODO: дополнить значения values -->
+        <key key="amenity" value="vending_machine" />
+        <key key="vending" value="water" />
+        <key key="brand" value="Айсберг" />
+        <key key="contact:website" value="https://aqua.vodomat.site/" />
+        <key key="opening_hours" value="24/7" />
+        <key key="name" value="Айсберг" />
+        <preset_link preset_name="Payment Methods" />
+      </item>
       <separator />
         <item name="Vending machine Alive water" ru.name="Водомат &quot;Живая вода&quot;" type="node" preset_name_label="true">
         <space />
-        <combo key="contact:phone" text="Phone" default="+7 951 4773663,+7 950 7261704" />
-        <combo key="contact:vk" text="Vk" default="https://vk.com/lifewatermi" />
-        <combo key="operator" text="Operator" default="ООО «СРВ»" />
+        <combo key="contact:phone" text="Phone" values="+7 951 4773663,+7 950 7261704" /> <!-- TODO: дополнить значения values -->
+        <combo key="contact:vk" text="Vk" values="https://vk.com/lifewatermi" /> <!-- TODO: дополнить значения values -->
+        <combo key="operator" text="Operator" values="ООО «СРВ»" /> <!-- TODO: дополнить значения values -->
         <key key="amenity" value="vending_machine" />
         <key key="vending" value="water" />
         <key key="brand" value="Живая вода" />
@@ -3517,9 +3531,9 @@
       </item>
       <item name="Vending machine Third water tap" ru.name="Водомат &quot;Третий кран&quot;" type="node" preset_name_label="true">
         <space />
-        <combo key="contact:phone" text="Phone" default="+7 919 1131122" />
-        <combo key="contact:vk" text="Vk" default="" />
-        <combo key="operator" text="Operator" default="ООО «Теплоэнергомонтаж»" />
+        <combo key="contact:phone" text="Phone" values="+7 919 1131122" /> <!-- TODO: дополнить значения values -->
+        <combo key="contact:vk" text="Vk" values="" /> <!-- TODO: дополнить значения values -->
+        <combo key="operator" text="Operator" values="ООО «Теплоэнергомонтаж»" /> <!-- TODO: дополнить значения values -->
         <key key="amenity" value="vending_machine" />
         <key key="vending" value="water" />
         <key key="brand" value="Третий кран" />
