@@ -3541,7 +3541,7 @@
       </item>
       <item name="Vending machine Third water tap" ru.name="Водомат &quot;Третий кран&quot;" type="node" preset_name_label="true">
         <space />
-        <combo key="contact:phone" text="Phone" default="+7 919 1131122" values="" /> <!-- TODO: дополнить значения values -->
+        <combo key="contact:phone" text="Phone" default="+7 919 1131122" values="+7 963 4733797" /> <!-- TODO: дополнить значения values -->
         <combo key="contact:vk" text="Vk" values="" /> <!-- TODO: дополнить значения values -->
         <combo key="operator" text="Operator" default="ООО «Теплоэнергомонтаж»" values="" /> <!-- TODO: дополнить значения values -->
         <combo key="payment:notes" text="Оплата банкнотами" default="no" values="yes" />
